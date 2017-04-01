@@ -1,0 +1,32 @@
+{
+  "name": "frontend-testing-demo",
+  "version": "0.1.0",
+  "description": "Demo app tested with Nightwatch and Karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eastbayjake/frontend-testing-demo.git"
+  },
+  "keywords": [
+    "nightwatchjs",
+    "nightwatch",
+    "phantomjs",
+    "headless",
+    "chrome"
+  ],
+  "author": "Jake McGuire <mcguireghs@gmail.com> (https://github.com/eastbayjake)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eastbayjake/frontend-testing-demo/issues"
+  },
+  "homepage": "https://github.com/eastbayjake/frontend-testing-demo#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}
