@@ -1,0 +1,19 @@
+label {
+	display: block;
+	height: 40px;
+}
+
+label > * {
+	display: inline-block;
+	font-size: 18px;
+}
+
+label > span {
+	width: 100px;
+	font-weight: bold;
+}
+
+label > input {
+	width: 150px;
+	height: 25px;
+}
